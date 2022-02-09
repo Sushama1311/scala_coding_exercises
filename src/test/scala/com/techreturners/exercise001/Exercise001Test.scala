@@ -44,7 +44,7 @@ class Exercise001Test extends AnyFlatSpec {
     assert(exercise001.reverse("why would you even want to do this?") == "?siht od ot tnaw neve uoy dluow yhw")
   }
 
-  "Linux user counting" should "return the correct amount of linux users" in {
+  "Linux user counting" should "return the correct amount of linux users" in  {
 
     val users = Seq(
       User("Heather", "Windows 10", "Windows"),
